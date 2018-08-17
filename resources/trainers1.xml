@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<trainers>
+    <trainer>
+        <name>Andrei Reut</name>
+        <language>Java</language>
+        <experience>6</experience>
+    </trainer>
+    <trainer>
+        <name>Ivan Ivanov</name>
+        <language>JS</language>
+        <experience>3</experience>
+    </trainer>
+    <trainer>
+        <name>Pert Petrov</name>
+        <language>C++</language>
+        <experience>10</experience>
+    </trainer>
+</trainers>

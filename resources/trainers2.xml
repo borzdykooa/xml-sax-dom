@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<trainers>
+    <trainer>
+        <name>Sergei Sergeev</name>
+        <language>C#</language>
+        <experience>6</experience>
+    </trainer>
+    <trainer>
+        <name>Pavel Pavlov</name>
+        <language>JS</language>
+        <experience>3</experience>
+    </trainer>
+    <trainer>
+        <name>Igor Igorev</name>
+        <language>C++</language>
+        <experience>10</experience>
+    </trainer>
+    <trainer>
+        <name>Andrei Andreev</name>
+        <language>C++</language>
+        <experience>10</experience>
+    </trainer>
+</trainers>

@@ -1,0 +1,32 @@
+2018-08-17 12:04:50,246 INFO  - File size is 472, SAX-parser is chosen
+2018-08-17 12:04:50,329 INFO  - [Trainer(id=null, name=Andrei Reut, language=Java, experience=6), Trainer(id=null, name=Ivan Ivanov, language=JS, experience=3), Trainer(id=null, name=Pert Petrov, language=C++, experience=10)]
+2018-08-17 12:04:50,330 INFO  - File size is 613, DOM-parser is chosen
+2018-08-17 12:04:50,416 INFO  - [Trainer(id=null, name=Andrei Andreev, language=C++, experience=10), Trainer(id=null, name=Igor Igorev, language=C++, experience=10), Trainer(id=null, name=Sergei Sergeev, language=C#, experience=6), Trainer(id=null, name=Pavel Pavlov, language=JS, experience=3)]
+2018-08-17 12:04:51,315 INFO  - HHH000412: Hibernate Core {5.3.4.Final}
+2018-08-17 12:04:51,331 INFO  - HHH000206: hibernate.properties not found
+2018-08-17 12:04:52,328 INFO  - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2018-08-17 12:04:53,628 WARN  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-08-17 12:04:53,652 INFO  - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/xml_sax_dom_database]
+2018-08-17 12:04:53,654 INFO  - HHH10001001: Connection properties: {user=root, password=****}
+2018-08-17 12:04:53,655 INFO  - HHH10001003: Autocommit mode: false
+2018-08-17 12:04:53,665 INFO  - HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-08-17 12:04:54,473 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-08-17 12:04:56,298 INFO  - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@9f46d94] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2018-08-17 12:04:56,362 INFO  - Method save is called in TrainerDao
+2018-08-17 12:04:56,663 INFO  - Trainer(id=1, name=Andrei Reut, language=Java, experience=6) has been saved successfully!
+2018-08-17 12:04:56,666 INFO  - Method save is called in TrainerDao
+2018-08-17 12:04:56,695 INFO  - Trainer(id=2, name=Ivan Ivanov, language=JS, experience=3) has been saved successfully!
+2018-08-17 12:04:56,695 INFO  - Method save is called in TrainerDao
+2018-08-17 12:04:56,732 INFO  - Trainer(id=3, name=Pert Petrov, language=C++, experience=10) has been saved successfully!
+2018-08-17 12:04:56,734 INFO  - Method save is called in TrainerDao
+2018-08-17 12:04:56,777 INFO  - Trainer(id=4, name=Andrei Andreev, language=C++, experience=10) has been saved successfully!
+2018-08-17 12:04:56,777 INFO  - Method save is called in TrainerDao
+2018-08-17 12:04:56,806 INFO  - Trainer(id=5, name=Igor Igorev, language=C++, experience=10) has been saved successfully!
+2018-08-17 12:04:56,806 INFO  - Method save is called in TrainerDao
+2018-08-17 12:04:56,810 INFO  - Trainer(id=6, name=Sergei Sergeev, language=C#, experience=6) has been saved successfully!
+2018-08-17 12:04:56,810 INFO  - Method save is called in TrainerDao
+2018-08-17 12:04:56,856 INFO  - Trainer(id=7, name=Pavel Pavlov, language=JS, experience=3) has been saved successfully!
+2018-08-17 12:04:56,857 INFO  - Method findAll is called in TrainerDao
+2018-08-17 12:04:56,933 INFO  - HHH000397: Using ASTQueryTranslatorFactory
+2018-08-17 12:04:57,223 INFO  - List of Trainers: [Trainer(id=1, name=Andrei Reut, language=Java, experience=6), Trainer(id=2, name=Ivan Ivanov, language=JS, experience=3), Trainer(id=3, name=Pert Petrov, language=C++, experience=10), Trainer(id=4, name=Andrei Andreev, language=C++, experience=10), Trainer(id=5, name=Igor Igorev, language=C++, experience=10), Trainer(id=6, name=Sergei Sergeev, language=C#, experience=6), Trainer(id=7, name=Pavel Pavlov, language=JS, experience=3)]
+2018-08-17 12:04:57,225 INFO  - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/xml_sax_dom_database]
