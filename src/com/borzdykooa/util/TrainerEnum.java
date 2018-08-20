@@ -1,5 +1,8 @@
 package com.borzdykooa.util;
 
+/**
+ * Класс, содержащий перечисление тегов в xml-документе
+ */
 public enum TrainerEnum {
     TRAINERS("trainers"),
     TRAINER("trainer"),

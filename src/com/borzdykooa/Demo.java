@@ -10,6 +10,9 @@ import org.hibernate.SessionFactory;
 import java.util.List;
 import java.util.Set;
 
+/**
+ * Класс для тестирования работы приложения
+ */
 public class Demo {
 
     public static void main(String[] args) {

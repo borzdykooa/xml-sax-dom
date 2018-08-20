@@ -5,8 +5,8 @@ import lombok.NoArgsConstructor;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 
-/*
-Класс, отвечающий за создание единственного экземпляра SessionFactory и предоставление глобальной точки доступа к нему
+/**
+ * Класс, отвечающий за создание единственного экземпляра SessionFactory и предоставление глобальной точки доступа к нему
  */
 @NoArgsConstructor(access = AccessLevel.PRIVATE)
 public final class SessionFactoryManager {

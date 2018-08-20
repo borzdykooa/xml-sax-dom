@@ -15,6 +15,9 @@ import java.io.IOException;
 import java.util.HashSet;
 import java.util.Set;
 
+/**
+ * Конкретная реализация DOM-парсера
+ */
 public class TrainerDOMBuilder implements ParserStrategy {
 
     private Set<Trainer> trainers;

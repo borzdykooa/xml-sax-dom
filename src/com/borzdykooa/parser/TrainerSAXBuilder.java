@@ -10,6 +10,9 @@ import org.xml.sax.helpers.XMLReaderFactory;
 import java.io.IOException;
 import java.util.Set;
 
+/**
+ * Конкретная реализация SAX-парсера
+ */
 public class TrainerSAXBuilder implements ParserStrategy {
 
     private Set<Trainer> trainers;

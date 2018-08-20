@@ -8,6 +8,9 @@ import java.util.EnumSet;
 import java.util.HashSet;
 import java.util.Set;
 
+/**
+ * Класс, помогающий SAX-парсеру выполнять свои функции
+ */
 public class TrainerHandler extends DefaultHandler {
 
     private Set<Trainer> trainers;

@@ -11,8 +11,8 @@ import org.hibernate.SessionFactory;
 import java.io.Serializable;
 import java.util.List;
 
-/*
-Класс, содержащий методы работы с таблицей trainer
+/**
+ * Класс, содержащий методы работы с таблицей trainer
  */
 @NoArgsConstructor(access = AccessLevel.PRIVATE)
 public final class TrainerDao {

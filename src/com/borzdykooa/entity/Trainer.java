@@ -13,6 +13,9 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 import java.io.Serializable;
 
+/**
+ * Класс, соответствующий таблице trainer в базе данных
+ */
 @Data
 @Builder
 @AllArgsConstructor

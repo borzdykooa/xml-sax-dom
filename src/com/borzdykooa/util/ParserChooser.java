@@ -7,6 +7,9 @@ import org.apache.log4j.Logger;
 
 import java.io.File;
 
+/**
+ * Класс, отвечающий за выбор конкретной реализации парсера
+ */
 public class ParserChooser {
 
     private static ParserStrategy parserStrategy;
